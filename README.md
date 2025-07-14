@@ -38,6 +38,7 @@ reddit_user_persona/
 
 Unzip the project folder or clone it from your GitHub (if applicable):
 cd reddit_user_persona
+
 2. 🧪 Create Virtual Environment (Recommended)
 # Windows
 python -m venv venv
