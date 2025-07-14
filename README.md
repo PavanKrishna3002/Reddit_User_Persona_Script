@@ -1,28 +1,29 @@
-# 🧠 Reddit User Persona Generator
+🧠 Reddit User Persona Generator
 
 This project takes a Reddit username, scrapes their recent posts and comments, and generates a user persona using OpenAI's GPT model — with source citations.
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 reddit_user_persona/
 ├── main.py # Main entry point
+
 ├── requirements.txt # Project dependencies
+
 ├── .env # Stores API keys (not checked into version control)
+
 ├── README.md # You're reading it!
+
 ├── src/
+
 │ ├── scraper.py # Handles Reddit scraping via PRAW
+
 │ ├── llm.py # Sends content to OpenAI and gets persona
+
 │ └── utils.py # Utility to save persona to a text file
 
-yaml
-Copy
-Edit
-
----
-
-## ✅ Features
+✅ Features
 
 - 🔍 Scrapes up to **50 posts** and **100 comments** from a given Reddit user
 - 🧠 Uses **GPT-4 or GPT-3.5** to generate a persona
@@ -31,18 +32,13 @@ Edit
 
 ---
 
-## 🚀 Setup Instructions
+🚀 Setup Instructions
 
-### 1. 📥 Clone or Download the Project
+1. 📥 Clone or Download the Project
 
 Unzip the project folder or clone it from your GitHub (if applicable):
-
-```bash
 cd reddit_user_persona
 2. 🧪 Create Virtual Environment (Recommended)
-bash
-Copy
-Edit
 # Windows
 python -m venv venv
 venv\\Scripts\\activate
@@ -51,15 +47,11 @@ venv\\Scripts\\activate
 python3 -m venv venv
 source venv/bin/activate
 3. 📦 Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 🔐 API Key Setup
 1. Create .env file in the root directory with the following content:
 env
-Copy
-Edit
 REDDIT_CLIENT_ID=your_client_id_here
 REDDIT_CLIENT_SECRET=your_client_secret_here
 OPENAI_API_KEY=your_openai_api_key_here
@@ -94,21 +86,13 @@ Click “Create new secret key”
 Paste into .env under OPENAI_API_KEY
 
 ▶️ Run the Script
-bash
-Copy
-Edit
 python main.py
 You'll be prompted to enter a Reddit username (e.g., kojied).
 
 After execution, the script will generate:
-
-Copy
-Edit
 kojied_persona.txt
 🧾 Example Output Format
-yaml
-Copy
-Edit
+
 Name: Unknown
 Age Range: 25-34 (Comment: “...during my college days...” - [URL])
 Occupation: Software Engineer (Post: “...at work we use Python...” - [URL])
