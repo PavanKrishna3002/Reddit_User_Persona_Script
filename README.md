@@ -41,10 +41,12 @@ cd reddit_user_persona
 2. 🧪 Create Virtual Environment (Recommended)
 # Windows
 python -m venv venv
+
 venv\\Scripts\\activate
 
 # macOS/Linux
 python3 -m venv venv
+
 source venv/bin/activate
 
 3. 📦 Install Dependencies
