@@ -127,13 +127,13 @@ Personality: Thoughtful, Analytical (Based on tone and content)
 
 🧼 Optional Enhancements
 
-Streamlit or Gradio UI for non-technical users
+1.Streamlit or Gradio UI for non-technical users
 
-Output in PDF, JSON, or Markdown formats
+2.Output in PDF, JSON, or Markdown formats
 
-Pushshift fallback if Reddit API limits are hit
+3.Pushshift fallback if Reddit API limits are hit
 
-Persona comparison between multiple users
+4.Persona comparison between multiple users
 
 📜 License
 
